@@ -1,0 +1,804 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ml-auto{
+  margin: auto!important;
+}
+#mypic img{
+  height: 300px;
+  width: 220px;
+}
+ #navbar-brand{
+   font-size: 32px;
+   font-weight: 600;
+   padding-left:4rem;
+   color:#003f88;
+   font-family: Gill Sans, sans-serif;
+ }
+ #registrationbtn {
+  margin-left: 3.5rem; 
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #003f88;
+  color:#003f88;
+}
+
+#registrationbtn:hover {
+  background-color: #033270;
+  color: white;
+}
+#homeone {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+#homeone h2{
+  font-weight: 400;
+}
+#homeone h1{
+  font-size: 3.5rem;
+  font-weight:700;
+}
+#homeone p{
+  font-size: large;
+}
+#homeonebtn{
+  border-radius: 4px;
+  background-color: #003f88;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 8px;
+  padding-top: 2px;
+  width: 210px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 24px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+#homeonebtn{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+#homeonebtn:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 2px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#homeonebtn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+#homeonebtn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+#coadingimg img{
+   width: 30rem;
+  height: 29rem;
+}
+#countdown{
+  background-color:black
+}
+#countdown h2{
+  font-weight: 400;
+}
+.countdownheading1 {
+  padding: 1em;
+}
+.countdownheading1 h1{
+  font-weight: 400;
+}
+.counticon{
+  margin-right: 10px;
+
+}
+.countdownheading1:after { 
+  content:"";
+  display:block;
+  width: 3em;
+  max-width:30%;
+  border-bottom: 0.2em solid white;
+  margin: 1em auto 0;
+}
+#homereview{
+  font-size: 4rem;
+  font-weight: 600;
+}
+.homeselection3 i{
+  margin-left: 10px;
+}
+.homeselection h3{
+  margin-left: 17rem;
+  font-weight: 700;
+}
+.homestuintro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right:8px;
+}
+.otherhalf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.otherhalf p{
+  font-size: large;
+}
+.carouselsec h1{
+  font-size: 3rem;
+}
+.table tr{
+  padding: 0 15px;
+}
+.table th{
+  font-size: larger;
+}
+.newhr{
+  border-top: 1px solid grey;
+}
+.footerhalf{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footerhalf h5{
+  font-weight: 700;
+}
+.footer_below img{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1.4rem;
+}
+.aboutimg1 img{
+  width: 30rem;
+  height: 30rem;  
+}
+.aboutimg1text{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.aboutimg1text h1{
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+.aboutimg1text p{
+  font-size: large;
+}
+.about2text{
+  padding: 2rem 5rem;
+  font-size: large;
+  margin-top: 3rem;
+}
+.about3img img{
+  width: 30rem;
+  height: 30rem;  
+}
+.about3text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+.about3text h1{
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+.about3text p{
+  font-size: large;
+  margin-top: 1rem;
+}
+.about4text h1{
+  margin-top: 2rem;
+  font-size: 2.6rem;
+}
+.about4text p{
+  margin-top: 1.5rem;
+  font-size: large;
+}
+.about4text .btn-dark{
+height: 3rem;
+width: 14rem;
+font-size: large;
+font-weight: 400;
+}
+
+.preparationdemo1img img{
+  width: 10rem;
+  height: 10rem;
+
+}
+.premainheading{
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+.predemo2 h1,.myhead{
+  font-size: 3.5rem;
+  color:#003f88;
+}
+.predemo2 p{
+  font-size: 1.4rem;
+}
+.predemo2 button{
+  margin-top: 3.6rem;
+}
+.predemo2part2 .div{
+  font-size: 1.4rem;
+}
+.iconline{
+  padding-left: 1rem;
+}
+.predemo3 .myhead{
+  font-weight: 600;
+}
+.predemo3 i{
+  padding-left: 1rem;
+  color: green;
+}
+.smartboard img{
+  width: 33rem;
+  height: 20rem;
+}
+.smartboard p{
+  font-size: 1.4rem;
+  margin-top: 3rem;
+}
+.smartboard button{
+  margin-top: 3rem;
+}
+.smartboardhead{
+  font-size: 3.5rem;
+}
+.demolast h1{
+  font-weight: 300;
+}
+.demolast h2{
+  font-weight: 700;
+}
+.container .dropdown .dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: #b91773;
+  border-color: #fff;
+}
+
+
+.errpage{
+  font-size: 62.5%;
+}
+
+.errpage{
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
+  color: #293b49;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.number {
+  font-weight: 900;
+  font-size: 15rem;
+  line-height: 1;
+}
+
+.illustration {
+  position: relative;
+  width: 12.2rem;
+  margin: 0 2.1rem;
+}
+
+.circle {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 12.2rem;
+  height: 11.4rem;
+  border-radius: 50%;
+  background-color:#293b49;
+}
+
+.clip {
+  position: absolute;
+  bottom: 0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  width: 12.5rem;
+  height: 13rem;
+  border-radius: 0 0 50% 50%;
+}
+
+.paper {
+  position: absolute;
+  bottom: -0.3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 9.2rem;
+  height: 12.4rem;
+  border: 0.3rem solid #293b49;
+  background-color: white;
+  border-radius: 0.8rem;
+}  
+  .paper:before {
+    content: "";
+    position: absolute;
+    top: -0.7rem;
+    right: -0.7rem;
+    width: 1.4rem;
+    height: 1rem;
+    background-color: white;
+    border-bottom: 0.3rem solid #293b49;
+    transform: rotate(45deg);
+  }
+
+
+.face {
+  position: relative;
+  margin-top: 2.3rem;
+}
+
+.eyes {
+  position: absolute;
+  top: 0;
+  left: 2.4rem;
+  width: 4.6rem;
+  height: 0.8rem;
+}
+
+.eye {
+  position: absolute;
+  bottom: 0;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  background-color: #293b49;
+  animation-name: eye;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.eye-left {
+  left: 0;
+}
+
+.eye-right {
+  right: 0;
+}
+
+@keyframes eye {
+  0% {
+    height: 0.8rem;
+  }
+  50% {
+    height: 0.8rem;
+  }
+  52% {
+    height: 0.1rem;
+  }
+  54% {
+    height: 0.8rem;
+  }
+  100% {
+    height: 0.8rem;
+  }
+}
+
+.rosyCheeks {
+  position: absolute;
+  top: 1.6rem;
+  width: 1rem;
+  height: 0.2rem;
+  border-radius: 50%;
+  background-color:#fdabaf;
+}
+.rosyCheeks-left {
+  left: 1.4rem;
+}
+.rosyCheeks-right {
+  right: 1.4rem;
+}
+
+.mouth {
+  position: absolute;
+  top: 3.1rem;
+  left: 50%;
+  width: 1.6rem;
+  height: 0.2rem;
+  border-radius: 0.1rem;
+  transform: translateX(-50%);
+  background-color: #293b49;
+}
+
+.text {
+  margin-top: 5rem;
+  font-weight: 300;
+  color: #033270;
+}
+
+.button {
+  margin-top: 4rem;
+  padding: 0.6rem 2.4rem;
+  color: white;
+  background-color:#003f88;
+  text-decoration: none;
+}  
+ .button:hover {
+    background-color:#033270;
+   color: white;
+  }
+  #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.coursecard a{
+  text-decoration: none;
+  font-weight: 500;
+}
+.coursecard img{
+  height: 23rem;
+}
+.zoom {
+  transform: scale(1);
+  transition: transform 1s;
+}
+.zoom:hover{
+  transform: scale(1.05);
+
+}
+.classpara{
+  font-weight:bolder;
+  font-size: 16px;
+}
+.course2 h1,.coursehead{
+  font-size: 2.7rem;
+
+}
+.coures2 small{
+  font-weight: bold;
+}
+.coures2 h5{
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+.coures2 p{
+font-size: 15px;
+}
+.coures2 .btn{
+  margin-top: 1rem;
+}
+.course4 h1{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.contact_form_button .btn{
+  margin:0 auto;
+  display: block;
+}
+.loginbtn .btn{
+  margin-left: 3rem;
+}
+.img1pre{
+  width: 38rem;
+  height: 17rem;
+}
+.preparecon h1{
+  font-size: 2.7rem;
+}
+.preparecon p{
+  font-size: large;
+}
+.preparecon .preplink{
+  text-decoration: none;
+  font-weight: 500;
+}
+.img1pre{
+  margin: 0 auto;
+  display: block;
+}
+
+.img2pre{
+width: 24rem;
+height: 16rem;
+margin: 0 auto;
+  display: block;
+}
+.img4prep{
+  height: 12rem;
+  width: 32rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: 23px;
+  margin-bottom: 23px;
+
+}
+.img5prep{
+  height: 20rem;
+  width: 26.7rem;
+  margin: 0 auto;
+  display: block;
+}
+.img6prep{
+  height: 22rem;
+  width: 35rem;
+  margin: 0 auto;
+  display: block;
+}
+.footer_below{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #registrationbtn  {
+    margin-left: 0px; 
+  }
+  #coadingimg img{
+    max-width: 100%;
+    height: 20rem;
+  }
+  #homeone h2{
+    font-size: 1.4rem;
+  }
+  #homeone h1{
+    font-size: 2.4rem;
+    align-items: center;
+    margin-left: 2rem;
+  }
+  #homeone p{
+    font-size: 16px;
+    margin-left:1rem;
+  
+  }
+  #homeone p:nth-of-type(2) {
+    display: none;
+  }
+  #homeonebtn{
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    padding-top: 2px;
+    width: 150px;
+    margin: 24px;
+  }
+  #homereview{
+    text-align: center;
+    font-size: 2.6rem;
+  }
+  .homecardimg,.homeselection{
+    max-width: 100%;
+    height: auto;
+  }
+  .otherhalf h3{
+    margin-left: 7rem;
+
+  }
+  .otherhalfpart{
+    margin-top: 2rem;
+  }
+  .otherhalfpart1  h5,p{
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .carouselsec h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aboutimg1 img{
+    max-width: 100%;
+    height: auto;
+  }
+  .about2text{
+    padding: 10%;
+  }
+  .about3text h1{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .about3img img{
+    max-width: 100%;
+    height: auto;
+  }
+  .about4text h1{
+    text-align: center;
+  }
+  .about4text button{
+    margin:0 auto;
+    display:block;
+  }
+ .premainheading{
+   font-size: 2.3rem;
+ }
+ .preparationdemo1img img{
+  margin:auto;
+  display:block;
+ }
+ .preparationdemo1img h1{
+   display: none;
+ }
+ .preparationdemo1text .btn,.predemo2 .btn{
+  margin:0 auto;
+  display:block;
+ }
+ .predemo2 h1{
+   font-size: 2.5rem
+ }
+ .predemo2part2 .one{
+   margin-top: 2rem;
+ }
+ .predemo3 p{
+   font-size: larger;
+ }
+ .smartboardhead,.myhead{
+   font-size: 2.5rem;
+ }
+.smartboard img{
+  max-width: 100%;
+    height: auto;
+}
+.preparationdemo1text h2{
+  text-align: center;
+}
+.smartboard2 h1{
+  margin-top: 1rem;
+}
+.smartboard2 p{
+  margin-bottom: 2rem;
+}
+.smartboard2 .btn{
+  margin:0 auto;
+  display:block;
+ 
+}
+.predemo3{
+  display:table;
+  margin:0 auto;
+  text-align: center;
+}
+.demolast h1{
+  font-weight: 400;
+}
+.demolast h2{
+  margin-top: 1rem;
+}
+.error{
+  display: none;
+}
+.text{
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+}
+.button{
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  padding: .5rem 1.8rem;
+}
+.coursehead,.course2 h1{
+  font-size: 2.4rem;
+  text-align: center;
+}
+.course2 h5{
+  text-align: center;
+}
+.course3para{
+  text-align:start
+}
+.course3head1{
+  text-align: center;
+}
+.course3btn{
+  margin-bottom: 1rem;
+}
+.course4 h2{
+  font-size: 20px;
+}
+.course4 h1{
+  font-size: 2.4rem;
+}
+.loginbtn .btn{
+  margin: 0 auto;
+  display: block;
+}
+
+.img1pre,.img2pre,.img4prep,.img5prep,.img6prep{  max-width: 100%;
+  height: auto;
+}
+.img4prep{
+  margin-top: 3px;
+  margin-bottom:1px;
+}
+.preparecon .card{
+  max-width: 100%;
+  height: auto;
+}
+.preparecon h1{
+  font-size: 2.3rem;
+}
+.signupcon h1{
+  font-size: 2rem;
+}
+
+}
+
+ 
