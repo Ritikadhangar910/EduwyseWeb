@@ -5,9 +5,6 @@ const bcrypt = require( 'bcryptjs');
 const authenticate=require('../middleware/authenticate');
 require('../DB/conn');
 const User = require("../model/userSchema");
-router.get('/', (req, res) => {
-    res.send(`Hello About world from the server`);
-});
 router.post('/register', async (req, res) => {
     const { name, email, phone, work, state, password, cpassword} = req.body;
     if (!name || !email || !phone || !work ||!state|| !password || !cpassword) {
